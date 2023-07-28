@@ -2,16 +2,17 @@ import React from "react";
 
 function Contacts() {
   return (
-    <section className="contact">
+    <section className="contact" id="contactSection">
       <div className="contact-me">Let's Connect</div>
-      <div className="email">aryannair103@gmail.com</div>
+      <div className="address">Chhattisgarh, India</div>
+      <div className="email">aryan.nair.cg@gmail.com</div>
       <div className="linkdln">
         <a href="https://www.linkedin.com/in/aryan-nair-311224195/">
-          linkdln/aryanNair
+          linkdln/AryanNair
         </a>
       </div>
       <div className="github">
-        <a href="https://github.com/AryanNair007">github/aryanNair</a>
+        <a href="https://github.com/AryanNair007">github/AryanNair</a>
       </div>
     </section>
   );

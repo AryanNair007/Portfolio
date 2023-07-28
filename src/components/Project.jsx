@@ -56,12 +56,3 @@ export default Project;
 //       </div>
 //     </div>
 //   </div>
-
-{
-  /* <div class="proj-1">1. E-Voting System using BlockChain</div>
-<div class="proj-2">2. Good Review or Bad Review?</div>
-<div class="proj-3">3. Tic-Tac-Toe Game with optimal play</div>
-<div class="proj-2">4. Library Management using Pyton and Sql</div>
-<div class="proj-3">5. Company turnover prediction using Linear Regression Model</div>
-<div class="proj-2">6. Self Balancing Bike using Control System <div>*/
-}

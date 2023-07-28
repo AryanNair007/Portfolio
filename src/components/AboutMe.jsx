@@ -2,17 +2,19 @@ import React from "react";
 
 function AboutMe() {
   return (
-    <section className="about-me">
+    <section className="about-me" id="aboutMeSection">
       <div className="info">About Me</div>
       <div className="information">
         <div className="my-img"></div>
         <div className="info-txt">
-          {" "}
-          I am curently pursuing a Bachorols degree in Computer Science from
-          Shri Shankarachrya Technical Campus, Junwani. I am a software devloper
-          who like to create intractive things and experiment with cutting edge
-          tecnology. C, C++, Python and Java Script are few of the programming
-          languages which I have used to create projects.
+          I am a software developer who is passionate about programming and
+          enjoys learning new things. Currently pursuing a Bachelor of
+          Technology in Computer Science with specializaion in Artificial
+          Intelligence. I've worked with a number of different programming
+          languages, including Python, C++, and MERN stack, as well as
+          technologies like blockchain and machine learning. I'm eager to share
+          my expertise with people and use my portfolio to highlight my
+          abilities and experiences.
         </div>
       </div>
     </section>
