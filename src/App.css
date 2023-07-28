@@ -1,38 +1,168 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Balsamiq+Sans:wght@400;700&family=Varela+Round&family=Vibur&display=swap");
+
+:root {
+  --font-landing: "arial";
+  --clr-main: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* <==========================Navigation bar=========================> */
+nav {
+  border: #000 double 0.2em;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+nav p {
+  font-family: "Amatic SC", cursive;
+  font-size: 2rem;
+  padding: 0em 1em;
+}
+nav .buttons {
+  padding: 1em;
+  margin: 0 0 0 5em;
+  display: flex;
+}
+nav button {
+  margin: 0.2em 1em;
+  padding: 1em 1.25em;
 }
 
-.App-link {
-  color: #61dafb;
+/* <=================Landing Part======================> */
+.landing-part {
+  height: 88vh;
+  background-color: var(--clr-main);
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+.landing-txt {
+  margin: 1.4em 0em 0.2em 0em;
+  padding: 0em 0.3em;
+  font-size: 9rem;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: right;
+  vertical-align: bottom;
+}
+/* <=================== Project Part =================> */
+
+.project-part {
+  margin: 1em 2em;
+}
+.proj-names-col {
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.proj-head {
+  /* text-align: center;     */
+  font-size: 3rem;
+  margin: 0em 2em;
+}
+
+.proj-1 {
+  margin: 2em 1em;
+  padding: 0.8em;
+  background-color: rgb(232, 232, 232);
+  font-size: 1.5rem;
+  box-shadow: -0.7em 0.7em 0.2em 0.1em rgb(112, 97, 77);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+
+.proj-img {
+  background-color: blue;
+  margin-right: 1em;
+}
+
+.proj-discription {
+  padding-left: 2em;
+}
+
+.proj-txt {
+  flex-basis: calc(100% / 3 * 2);
+}
+.proj-img img {
+  display: block;
+  margin: auto auto;
+  max-width: 10em;
+  height: auto;
+}
+
+.proj-name {
+  font-size: 1.9rem;
+  padding: 0.4em 0.25em;
+  background-color: #000;
+  color: whitesmoke;
+}
+.github-txt {
+  font-size: 1.2rem;
+}
+.github-txt a {
+  color: rgb(255, 123, 123);
+}
+
+/* <==================Info Part=======================> */
+.about-me {
+  margin: 1em;
+  padding: 1em;
+  box-shadow: -0.1em 0.1em 0.5em 0 black;
+}
+.info {
+  margin-left: 1em;
+  font-size: 2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: oblique;
+  padding: 0.5em;
+  text-decoration: underline;
+}
+.information {
+  display: flex;
+}
+.my-img {
+  margin: 0em 3em;
+  flex-grow: 1;
+  background-image: url(img/my_pic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 15em;
+
+  /* box-shadow: 0 0 1em 0 black; */
+}
+.info-txt {
+  flex-basis: calc(100% / 3 * 2);
+  margin-bottom: 1em;
+  padding-left: 0.5em;
+  font-size: 1.6rem;
+}
+
+/* <==================Info Part=======================> */
+
+.contact {
+  padding: 2em 0.5em;
+  background-color: rgb(68, 68, 68);
+  color: #f5f5f5;
+  font-size: 1.4rem;
+}
+.contact-me {
+  font-size: 2rem;
+}
+.email,
+.linkdln,
+.github {
+  padding: 0.24em;
 }
