@@ -37,7 +37,7 @@ nav {
 nav p {
   font-family: "Amatic SC", cursive;
   font-size: 2rem;
-  padding: 0em 1em;
+  padding: 0em 2em;
 }
 nav .buttons {
   padding: 1em;
@@ -51,7 +51,7 @@ nav button {
 
 /* <=================Landing Part======================> */
 .landing-part {
-  height: 88vh;
+  height: 100vh;
   background-color: var(--clr-main);
   display: flex;
   justify-content: end;
@@ -66,6 +66,42 @@ nav button {
   text-align: right;
   vertical-align: bottom;
 }
+
+/* <==================AboutMe Part=======================> */
+.about-me {
+  margin: 1em;
+  padding: 1em;
+  box-shadow: -0.1em 0.1em 0.5em 0 black;
+}
+.info {
+  margin-left: 0.5em;
+  font-size: 2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: oblique;
+  padding: 0.5em;
+  text-decoration: underline;
+}
+.information {
+  display: flex;
+}
+.my-img {
+  margin: 0em 3em;
+  flex-grow: 1;
+  background-image: url(img/my_pic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 15em;
+
+  /* box-shadow: 0 0 1em 0 black; */
+}
+.info-txt {
+  flex-basis: calc(100% / 3 * 2);
+  margin-bottom: 1em;
+  padding-left: 0.5em;
+  font-size: 1.6rem;
+}
+
 /* <=================== Project Part =================> */
 
 .project-part {
@@ -78,7 +114,7 @@ nav button {
 .proj-head {
   /* text-align: center;     */
   font-size: 3rem;
-  margin: 0em 2em;
+  margin: 0em 0.6em;
 }
 
 .proj-1 {
@@ -120,48 +156,14 @@ nav button {
   color: whitesmoke;
 }
 .github-txt {
+  padding-left: 1.2em;
   font-size: 1.2rem;
 }
 .github-txt a {
   color: rgb(255, 123, 123);
 }
 
-/* <==================Info Part=======================> */
-.about-me {
-  margin: 1em;
-  padding: 1em;
-  box-shadow: -0.1em 0.1em 0.5em 0 black;
-}
-.info {
-  margin-left: 1em;
-  font-size: 2rem;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-style: oblique;
-  padding: 0.5em;
-  text-decoration: underline;
-}
-.information {
-  display: flex;
-}
-.my-img {
-  margin: 0em 3em;
-  flex-grow: 1;
-  background-image: url(img/my_pic.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 15em;
-
-  /* box-shadow: 0 0 1em 0 black; */
-}
-.info-txt {
-  flex-basis: calc(100% / 3 * 2);
-  margin-bottom: 1em;
-  padding-left: 0.5em;
-  font-size: 1.6rem;
-}
-
-/* <==================Info Part=======================> */
+/* <==================Contact Part=======================> */
 
 .contact {
   padding: 2em 0.5em;
